@@ -1,0 +1,21 @@
+{
+  "name": "lacos-repeticao",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "for": "tsx exemplos/for/exemplo.ts",
+    "forEach": "tsx exemplos/forEach/exemplo.ts",
+    "while": "tsx exemplos/while/exemplo.ts",
+    "doWhile": "tsx exemplos/doWhile/exemplo.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}

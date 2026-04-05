@@ -5,10 +5,9 @@
 //     contador++;
 // }
 
-//exemplo de um loop while com um array
-// const frutas: string[] = ['maçã', 'banana', 'laranja', 'uva', 'pera'];
-// let indice: number = 0;
-// while(indice < frutas.length) {
-//     console.log(`a fruta atual é: ${frutas[indice]}`);
-//     indice++;
-// }
+//exemplo de um loop while aplicando uma condição de parada
+let numero: number = 0;
+while(numero !== 5) {
+    console.log(`o numero atual é: ${numero}`);
+    numero = Math.floor(Math.random() * 10);
+}

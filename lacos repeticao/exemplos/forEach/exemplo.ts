@@ -4,6 +4,16 @@
 //     console.log(`o numero atual é: ${numero}`);
 // });
 
+//exemplo de um loop forEach com funções
+// const numeros3: number[] = [1, 2, 3, 4, 5];
+// const numerosMultiplicados: number[] = [];
+
+// numeros3.forEach((numero) => {
+//     numerosMultiplicados.push(numero * 2);
+// });
+
+// console.log(`numeros multiplicados: ${numerosMultiplicados}`);
+
 //exemplo de um loop forEach com funcão
 // const numeros2: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // const numerosPares: number[] = [];
@@ -21,6 +31,4 @@
 
 // console.log(`numeros pares: ${numerosPares}`);
 // console.log(`numeros impares: ${numerosImpares}`);
-
-
 

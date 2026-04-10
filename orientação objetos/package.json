@@ -8,12 +8,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "carro-instancia": "ts-node \"orientação objetos/codigos/instanciacao/instancia-carro.ts\"",
-    "heranca": "ts-node \"orientação objetos/codigos/heranca/heranca.ts\""
+    "instanciacao": "tsx \"orientacao objetos/codigos/instanciacao/codigo/instancia-carro.ts\"",
+    "heranca": "tsx \"orientacao objetos/codigos/heranca/codigo/heranca.ts\"",
+    "encapsulamento": "tsx \"orientacao objetos/codigos/encapsulamento/codigos/encapsulamento.ts\"",
+    "polimorfismo": "tsx \"orientacao objetos/codigos/polimorfismo e classe abstrasta/codigo/polimorfismo.ts\""
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.2"
   }
 }

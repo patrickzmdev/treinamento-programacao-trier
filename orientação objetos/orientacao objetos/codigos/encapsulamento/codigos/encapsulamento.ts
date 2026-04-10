@@ -1,0 +1,9 @@
+import { Pessoa } from "../classes/Pessoa";
+
+const pessoa1 = new Pessoa("João", 30);
+
+console.log(`Nome: ${pessoa1.getNome()} possui ${pessoa1.getIdade()} anos.`);
+
+pessoa1.fazerAniversario(); // João fez aniversário! Agora tem 31 anos.
+
+console.log(`Nome: ${pessoa1.getNome()} possui ${pessoa1.getIdade()} anos.`);

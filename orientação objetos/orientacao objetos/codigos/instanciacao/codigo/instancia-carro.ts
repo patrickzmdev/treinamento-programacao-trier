@@ -14,3 +14,7 @@ carro2.buzinar();
 carro2.frear();
 carro2.acelerar();
 carro2.exibirInformacoes();
+
+//Exemplo de sobrecarga de construtor usando parâmetros opcionais
+// const carro3 = new Carro("Ford", "Mustang", 2021);
+// carro3.exibirInformacoes();
